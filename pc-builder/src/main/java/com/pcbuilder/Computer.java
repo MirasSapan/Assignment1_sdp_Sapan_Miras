@@ -1,10 +1,5 @@
 package com.pcbuilder;
 
-/**
- * The Product: an immutable, fully assembled computer.
- * Instances can only be created through {@link StandardComputerBuilder},
- * which guarantees every returned object is in a valid, complete state.
- */
 public final class Computer {
 
     private final String cpu;
@@ -17,7 +12,6 @@ public final class Computer {
     private final String coolingSystem;
     private final boolean rgbLighting;
 
-    // Package-private: only a builder in this package may construct a Computer.
     Computer(String cpu,
              String gpu,
              int ramGb,
