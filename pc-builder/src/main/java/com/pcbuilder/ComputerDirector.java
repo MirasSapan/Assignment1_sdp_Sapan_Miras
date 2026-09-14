@@ -1,12 +1,5 @@
 package com.pcbuilder;
 
-/**
- * The Director: knows the recipes for well-known, reusable configurations
- * so a client does not have to repeat the same sequence of builder calls.
- * Each method accepts a fresh {@link ComputerBuilder}, so the director never
- * owns builder state and the same builder implementation can be reused
- * across calls.
- */
 public class ComputerDirector {
 
     public Computer buildGamingPc(ComputerBuilder builder) {
