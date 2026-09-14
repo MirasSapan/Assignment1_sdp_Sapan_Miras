@@ -1,11 +1,5 @@
 package com.pcbuilder;
 
-/**
- * Concrete builder that accumulates component choices and produces a
- * validated {@link Computer}. A missing or invalid mandatory component
- * causes {@link #build()} to fail fast with a clear exception rather than
- * silently returning a broken product.
- */
 public class StandardComputerBuilder implements ComputerBuilder {
 
     private static final String DEFAULT_GPU = "Integrated Graphics";
