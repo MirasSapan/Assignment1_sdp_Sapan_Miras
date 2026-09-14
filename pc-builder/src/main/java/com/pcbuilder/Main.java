@@ -1,10 +1,5 @@
 package com.pcbuilder;
 
-/**
- * The Client: demonstrates both reusable, director-driven configurations
- * and a fully custom build assembled directly through the fluent builder
- * API, plus the validation that runs when a required component is missing.
- */
 public final class Main {
 
     public static void main(String[] args) {
