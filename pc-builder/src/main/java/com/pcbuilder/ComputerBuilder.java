@@ -1,5 +1,7 @@
 package com.pcbuilder;
 
+// ьшкфы
+
 public interface ComputerBuilder {
 
     ComputerBuilder setCpu(String cpu);
